@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+    
+    body{
+    min-height: min-content;
+    max-height: max-content;
+    background-image: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 400% 400%;
+    position: relative;
+    scroll-behavior: smooth;
+    animation: Gradient 6s ease infinite;
+}
+    @-webkit-keyframes Gradient{
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+   
+
+
+    .top{
+        width: 100%;
+        background-color: black;
+        font-size: 50;
+        padding: 6;
+    }
+
+    .button{
+        background-color: white;
+        background-image: white;
+        min-width: 50vmin ;
+        max-width: 100vmax;
+        border: none;
+        color:white;
+        text-align: center;
+        text-decoration-color: #ffffff;
+        display: inline-block;
+        height: 51px;
+        border-radius: 20px;
+        font-size: 15px;
+        margin: none;
+        cursor: pointer;
+        
+    }
+
+    .button:hover{
+        background-color: white;
+        background-image: linear-gradient(to right, #E73C7E, #23A6D5, #23D5AB) ;
+        color: white;
+    }
+
+    .yourimage{
+        padding: 40px;
+        width: 200px;
+        height: 200px;
+        background-image: url('udit.jpg');
+        background-size: cover;
+        display: block;
+        border-radius: 200px;
+    
+
+    }
+    
+    .txt{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 24 ;
+        padding: 24px;
+        color: white;
+
+
+    }
+
+    .info{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 18;
+        padding: 0% 20%;
+    }
+
+    .skills{
+        
+        color:white ;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .skills li{
+        margin: 20px 0;
+    }
+
+    .bar{
+        background: #ffffff;
+        display: block;
+        height: 3%;
+        border-radius: 20px;
+        overflow: hidden;
+        box-shadow: 0 0 10px white;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .bar span{
+        height: 20px;
+        float: left;
+        background-image: linear-gradient(to right,rgb(194, 218, 255),rgb(0, 255, 136));
+        align-items: center;
+        justify-content: center;
+    }
+
+    .HTML5{
+        width: 75%;
+        animation:HTML5 2s;
+
+        
+    }
+
+    .CSS3{
+        width: 45%;
+        animation: CSS3 2s;
+    }
+
+    .JAVA{
+        width: 20%;
+        animation: JAVA 2s;
+
+    }
+
+    .PYTHON{
+        width: 10%;
+        animation: PYTHON 2s;
+    }
+
+    .C{
+        width: 60%;
+        animation: C 2s;
+    }
+
+    .Cpp{
+        width: 36%;
+        animation: Cpp 2s;
+    }
+
+    @keyframes HTML5{
+        0%{
+            width: 0%;
+        }
+        100%{
+            width: 90%;
+
+        }
+    }
+
+    @keyframes CSS3{
+        0%{
+            width: 0%;
+        }
+        100%{
+            width: 50%;
+        }
+    }
+
+    @keyframes JAVA{
+        0%{
+            width: 0%;
+        }
+        100%{
+            width: 20%;
+            
+        }
+    }
+
+    @keyframes C{
+        0%{
+            width: 0%;
+        }
+        100%{
+            width: 70%;
+        }
+    }
+
+    @keyframes Cpp{
+        0%{
+            width: 0%;
+        }
+        100%{
+            width: 50%;
+        }
+    }
+
+    .fa {
+        font-size: 30px;
+        width: 50px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+    }
+
+    .fa:hover{
+        opacity: 0.7;
+
+    }
+
+    .fa-instagram{
+        background-color: transparent;
+        color: black;
+    }
+
+    .fa-facebook {
+        background-color: transparent;
+        color: black;
+      }
+      
+      .fa-github {
+        background-color: transparent;
+        color: black;
+      }
+
+      .fa-twitter {
+        background-color: transparent;
+        color: black;
+      }
+  
+
