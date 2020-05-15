@@ -1,17 +1,17 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     scroll-behavior: smooth;
 }
     
     body{
     min-height: min-content;
     max-height: max-content;
-    background-image: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB) ;
+    background-image: linear-gradient(-90deg,  rgb(20, 23, 51), rgb(0, 0, 0),  rgb(20, 23, 51), rgb(0, 0, 0)) ;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 400% 400%;
+    background-size: 300% 300%;
     position: relative;
     scroll-behavior: smooth;
     animation: Gradient 6s ease infinite;
@@ -30,36 +30,9 @@
    
 
 
-    .top{
-        width: 100%;
-        background-color: black;
-        font-size: 50;
-        padding: 6;
-    }
+   
 
-    .button{
-        background-color: white;
-        background-image: white;
-        min-width: 50vmin ;
-        max-width: 100vmax;
-        border: none;
-        color:white;
-        text-align: center;
-        text-decoration-color: #ffffff;
-        display: inline-block;
-        height: 51px;
-        border-radius: 20px;
-        font-size: 15px;
-        margin: none;
-        cursor: pointer;
-        
-    }
-
-    .button:hover{
-        background-color: white;
-        background-image: linear-gradient(to right, #E73C7E, #23A6D5, #23D5AB) ;
-        color: white;
-    }
+    
 
     .yourimage{
         padding: 40px;
@@ -74,7 +47,7 @@
     }
     
     .txt{
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: 'Source Sans Pro', sans-serif;
         font-size: 24 ;
         padding: 24px;
         color: white;
@@ -83,7 +56,7 @@
     }
 
     .info{
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-family:  'Source Sans Pro', sans-serif;
         font-size: 18;
         padding: 0% 20%;
     }
@@ -93,20 +66,19 @@
         color:white ;
         align-items: center;
         justify-content: center;
+        padding: 15%;
 
     }
 
-    .skills li{
-        margin: 20px 0;
-    }
-
+    
     .bar{
         background: #ffffff;
+        
         display: block;
         height: 15px;
-        border-radius: 20px;
+        border-radius: 6px;
         overflow: hidden;
-        box-shadow: 0 0 10px white;
+        box-shadow: 0 0 15px white;
         align-items: center;
         justify-content: center;
 
@@ -115,42 +87,42 @@
     .bar span{
         height: 20px;
         float: left;
-        background-image: linear-gradient(to right,rgb(194, 218, 255),rgb(0, 255, 136));
+        background-image: linear-gradient(to right,rgb(133, 245, 253),rgb(0, 255, 136));
         align-items: center;
         justify-content: center;
     }
 
     .HTML5{
         width: 75%;
-        animation:HTML5 2s;
+        animation:HTML5 12s;
 
         
     }
 
     .CSS3{
         width: 45%;
-        animation: CSS3 2s;
+        animation: CSS3 8s;
     }
 
     .JAVA{
         width: 20%;
-        animation: JAVA 2s;
+        animation: JAVA 4s;
 
     }
 
     .PYTHON{
         width: 10%;
-        animation: PYTHON 2s;
+        animation: PYTHON 3s;
     }
 
     .C{
         width: 60%;
-        animation: C 2s;
+        animation: C 10s;
     }
 
     .Cpp{
         width: 36%;
-        animation: Cpp 2s;
+        animation: Cpp 6s;
     }
 
     @keyframes HTML5{
@@ -158,7 +130,7 @@
             width: 0%;
         }
         100%{
-            width: 90%;
+            width: 75%;
 
         }
     }
@@ -168,7 +140,7 @@
             width: 0%;
         }
         100%{
-            width: 50%;
+            width: 45%;
         }
     }
 
@@ -187,7 +159,16 @@
             width: 0%;
         }
         100%{
-            width: 70%;
+            width: 60%;
+        }
+    }
+
+    @keyframes PYTHON{
+        0%{
+            width: 0%;
+        }
+        100%{
+            width: 10%;
         }
     }
 
@@ -196,41 +177,60 @@
             width: 0%;
         }
         100%{
-            width: 50%;
+            width: 36%;
         }
     }
-
-    .fa {
-        font-size: 30px;
-        width: 50px;
-        text-align: center;
-        text-decoration: none;
-        margin: 5px 2px;
-    }
-
-    .fa:hover{
-        opacity: 0.7;
-
-    }
-
     .fa-instagram{
+        text-decoration: none;
+        padding: 6px ;
         background-color: transparent;
-        color: black;
+        color: white;
+        border-radius: 100px;
+    }
+
+    .fa-instagram:hover{
+        color: #DD2A7B ;
+        background-color: white;
     }
 
     .fa-facebook {
+        text-decoration: none;
+        padding: 6px ;
         background-color: transparent;
-        color: black;
+        color: white;
+        border-radius: 100px;
+      }
+
+      .fa-facebook:hover {
+        color: #3B5998 ;
+        background-color: white;
       }
       
       .fa-github {
+        text-decoration: none;
+        padding: 6px ;
         background-color: transparent;
-        color: black;
+        color: white;
+        border-radius: 100px;
+      }
+
+      .fa-github:hover{
+        background-color: white;
+        color: black ;
       }
 
       .fa-twitter {
+        text-decoration: none;
+        padding: 6px ;
         background-color: transparent;
-        color: black;
+        color: white;
+        border-radius: 100px;
+
       }
   
+      .fa-twitter:hover {
+        color: skyblue ;
+        background-color: white;
+    
+      }
 
